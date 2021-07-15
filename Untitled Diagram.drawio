@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T10:32:09.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="04RGmjsf5ixKYISDj3aq" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T12:58:15.812Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="86RU9A682lFwxciQCjK2" version="14.7.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="ERD Peminjaman Buku">
     <mxGraphModel dx="1038" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -16,7 +16,7 @@
             <mxPoint x="460" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SvWr6CnImMpXgD6B5cus-74" value="Account" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="SvWr6CnImMpXgD6B5cus-74" value="Accounts" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="40" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SvWr6CnImMpXgD6B5cus-75" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="SvWr6CnImMpXgD6B5cus-74">
@@ -37,7 +37,7 @@
         <mxCell id="SvWr6CnImMpXgD6B5cus-80" value="Password nvarchar(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="SvWr6CnImMpXgD6B5cus-78">
           <mxGeometry x="50" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SvWr6CnImMpXgD6B5cus-81" value="RoleAccount" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="SvWr6CnImMpXgD6B5cus-81" value="RoleAccounts" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="40" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SvWr6CnImMpXgD6B5cus-82" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="SvWr6CnImMpXgD6B5cus-81">
@@ -58,7 +58,7 @@
         <mxCell id="SvWr6CnImMpXgD6B5cus-87" value="RoleId int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="SvWr6CnImMpXgD6B5cus-85">
           <mxGeometry x="50" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SvWr6CnImMpXgD6B5cus-88" value="Person" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="SvWr6CnImMpXgD6B5cus-88" value="Persons" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="40" width="230" height="210" as="geometry" />
         </mxCell>
         <mxCell id="SvWr6CnImMpXgD6B5cus-89" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="SvWr6CnImMpXgD6B5cus-88">
@@ -115,7 +115,7 @@
         <mxCell id="SvWr6CnImMpXgD6B5cus-106" value="BirthDate datetime" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="SvWr6CnImMpXgD6B5cus-104">
           <mxGeometry x="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <object label="OverTime" asas="asas" id="SvWr6CnImMpXgD6B5cus-110">
+        <object label="BookBorrowing" asas="asas" id="SvWr6CnImMpXgD6B5cus-110">
           <mxCell style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
             <mxGeometry x="289" y="150" width="250" height="240" as="geometry">
               <mxRectangle x="10" y="210" width="90" height="30" as="alternateBounds" />
@@ -185,7 +185,7 @@
         <mxCell id="SvWr6CnImMpXgD6B5cus-131" value="StatusId int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="SvWr6CnImMpXgD6B5cus-129">
           <mxGeometry x="30" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SvWr6CnImMpXgD6B5cus-138" value="Role" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="SvWr6CnImMpXgD6B5cus-138" value="Roles" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="150" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SvWr6CnImMpXgD6B5cus-139" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="SvWr6CnImMpXgD6B5cus-138">
